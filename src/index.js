@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Card from './Components/Card.js';
-import App from './App.js';
+import App from './Containers/App.js';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
-import {robots} from './robots.js'
 
 ReactDOM.render(
   <React.StrictMode>
